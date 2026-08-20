@@ -1,10 +1,15 @@
 ---
 import Hero from "../components/Hero.astro";
 import Services from "../components/Services.astro";
+import Topbar from "../components/topbar.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
+  <Topbar />
   <Hero />
   <Services />
+  <button class="bg-sky-500 hover:bg-sky-700 py-2 px-5 rounded-2xl text-white"
+    >Save changes</button
+  >
 </Layout>
